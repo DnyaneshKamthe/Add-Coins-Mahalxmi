@@ -143,6 +143,7 @@ const App = () => {
       justifyContent={"center"}
       alignItems={"center"}
     >
+      
       <Box
         // width={{ base: "100%", md: "79%" }}
         // marginLeft={{ base: "0", md: "16rem" }}
@@ -160,14 +161,15 @@ const App = () => {
           gap="3rem"
           boxShadow="rgba(149, 157, 165, 0.2) 0px 8px 24px"
         >
+       
           <Flex
-            direction={{ base: "column", lg: "row" }}
+            // direction={{ base: "column", lg: "row" }}
             justifyContent={{ base: "end", md: "start" }}
             width={{ base: "100%", md: "100%" }}
-            ml={{ base: "6rem", md: "0rem" }}
-            mt={{ base: "3.5rem", md: "0rem" }}
+          
             gap={{ base: "0" }}
           >
+             
             <Button
               onClick={handleOpen}
               bg="green"
